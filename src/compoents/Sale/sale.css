@@ -1,0 +1,22 @@
+.sale{
+    margin-top: 35px;
+}
+
+.sale-check{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sale-check input{
+    width: 33px;
+    height: 33px;
+}
+
+.sale-check p{
+    font-size: 24px;
+    line-height: 29.26px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color:#002C6A;
+}

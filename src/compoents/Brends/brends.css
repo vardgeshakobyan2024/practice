@@ -1,0 +1,38 @@
+.brends-shoes{
+    margin-top: 35px;
+    width: 210px;
+    height: 349px;
+}
+
+.title-brend h3{
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: #002C6A;
+}
+
+.brends-shoes .brends-check{
+    margin-top: 25px;
+    border-right: 1px solid #B3C0D2;
+}
+
+.box input{
+    width: 33px;
+    height: 33px;
+}
+
+.box p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    font-family: Montserrat;
+    color: #002C6A;
+}
+
+.box .alexandr {
+    width: 102.47px;
+    height: 38.69px;
+    font-weight: 700;
+    color: #29292D;
+}

@@ -1,0 +1,46 @@
+.btn{
+    width: 209.5px;
+}
+
+.btn-shoes{
+    width: 209.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.okay{
+    border: 1px solid transparent;
+    width: 218px;
+    height: 56px;
+    border-radius: 50px;
+    padding: 24px, 53px 24px, 53px;
+    background-color: #FF1818 ;
+    box-shadow: 0px 15px 30px 0px rgba(227, 47, 31, 0.15);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    font-size: Montserrat;
+    color: rgba(255, 255, 255, 1);
+}
+
+.cancel {
+    border: 1px solid transparent;
+    width: 209px;
+    height: 56px;
+    border-radius: 50px;
+    padding: 24px, 23px 24px 53px;
+    background-color: #B3C0D2;
+    box-shadow: 0px 15px 30px 0px rgba(139, 140, 141, 0.1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+button{
+    margin: 10px;
+}

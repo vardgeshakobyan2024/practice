@@ -1,0 +1,74 @@
+.cardProducts {
+    width: 255px;
+    height: 351px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: sans-serif;
+    transition: all .4s;
+}
+
+.cardProducts:hover {
+    transform: scale(1.2);
+    height: 475px;
+}
+
+.cardProducts .imgBlock img {
+    width: 255px;
+    height: 188px;
+    object-fit: cover;
+}
+
+.cardProducts .infoBlock {
+    padding: 20px;
+}
+
+.cardProducts .infoBlock .infoHeading {
+    text-align: left;
+}
+
+.cardProducts .infoBlock .infoHeading h4 {
+    color: #29292D;
+}
+
+.cardProducts .infoBlock .infoHeading .article {
+    color: #B3C0D2;
+}
+
+.cardProducts .infoBlock .infoFooter {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardProducts .infoBlock .infoFooter h4 {
+    color: #002C6A;
+    font-size: 24px;
+}
+
+.cardProducts .infoBlock .infoFooter i {
+    font-size: 25px;
+    color: #b0bed0;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+
+.cardProducts .infoBlock .infoFooter i:hover {
+    color: #ff1818;
+}
+
+.cardProducts:hover .infoFooter h4 {
+    color: #ff1818;
+}
+
+.cardProducts .sizeBlock {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}

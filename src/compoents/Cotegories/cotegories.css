@@ -1,0 +1,53 @@
+.cotegories-shoes{
+    margin-top: 40px;
+    width: 209.5px;
+    height: 359px;
+}
+
+.title-cotegories h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 29.26px;
+    font-weight: 700;
+    color: #002C6A;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+
+.chek-box{
+    margin-top: 25px;
+    border-right: 1px solid #B3C0D2;
+
+}
+
+.chek-box input{
+    width: 33px;
+    height: 33px;
+}
+
+.chek-box p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    font-family: Montserrat;
+    color: #002C6A;
+}
+
+
+input[type="checkBox"]:checked + p{
+    font-weight: 700;
+    color: #29292D;
+}
+
+input[type="checkBox"]:checked{
+    background-color: red;
+    border-color: #29292D;
+}
+
